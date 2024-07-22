@@ -1,0 +1,2 @@
+[spacy_models]
+en_LRVSP_spacy = en_LRVSP_spacy
