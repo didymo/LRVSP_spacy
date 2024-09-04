@@ -1,7 +1,7 @@
 | Feature | Description |
 | --- | --- |
 | **Name** | `en_LRVSP_spacy` |
-| **Version** | `0.0.1` |
+| **Version** | `0.0.2` |
 | **spaCy** | `>=3.7.5,<3.8.0` |
 | **Default Pipeline** | `tok2vec`, `ner` |
 | **Components** | `tok2vec`, `ner` |
@@ -14,11 +14,11 @@
 
 <details>
 
-<summary>View label scheme (3 labels for 1 components)</summary>
+<summary>View label scheme (1 labels for 1 components)</summary>
 
 | Component | Labels |
 | --- | --- |
-| **`ner`** | `ref_doc`, `ref_part`, `title` |
+| **`ner`** | `ref_doc` |
 
 </details>
 
@@ -26,8 +26,8 @@
 
 | Type | Score |
 | --- | --- |
-| `ENTS_F` | 31.82 |
-| `ENTS_P` | 42.42 |
-| `ENTS_R` | 25.45 |
-| `TOK2VEC_LOSS` | 15613.07 |
-| `NER_LOSS` | 134649.00 |
+| `ENTS_F` | 79.76 |
+| `ENTS_P` | 83.76 |
+| `ENTS_R` | 76.12 |
+| `TOK2VEC_LOSS` | 252494.06 |
+| `NER_LOSS` | 106383.79 |
