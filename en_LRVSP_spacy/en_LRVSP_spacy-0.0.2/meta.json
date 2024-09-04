@@ -1,0 +1,54 @@
+{
+  "lang":"en",
+  "name":"LRVSP_spacy",
+  "version":"0.0.2",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_version":">=3.7.5,<3.8.0",
+  "spacy_git_version":"a6d0fc360",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "ref_doc"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.7975971321,
+    "ents_p":0.8376068376,
+    "ents_r":0.7612354355,
+    "ents_per_type":{
+      "ref_doc":{
+        "p":0.8376068376,
+        "r":0.7612354355,
+        "f":0.7975971321
+      }
+    },
+    "tok2vec_loss":2524.9406208798,
+    "ner_loss":1063.8378506557
+  },
+  "requirements":[
+
+  ]
+}
